@@ -74,12 +74,17 @@ a,
     color: #F9FAF8;
 }
 
+.button button {
+    flex-shrink: 0;
+}
+
 button {
     background-color: #3882F6;
     border-radius: 8px;
     color: #F9FAF8;
     border: 0px;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 2.5rem;
+    font-size: 16px;
 }
 
 .logo {
@@ -166,7 +171,9 @@ button {
 .inside {
     padding: 2rem 3rem;
     display: flex;
-    gap: 21.5rem;
+    gap: 19rem;
+    align-items: center;
+
 }
 
 .button {
